@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("backgroundPortfolioWeb.png");
+    background-attachment: fixed;
+    column-count: 3;
+    column-gap:30px;
+}
+
+#Topnav {
+    display: flex;
+    flex-flow: row;
+
+}
+h1 {
+    flex-grow:1;
+    flex-basis: 0;
+    align-content: center;
+    font-size: xx-large;
+    width: 33%;
+
+
+}
+
+h2 {
+    flex-grow:1;
+    flex-basis: 0;
+    width: 33%;
+    align-content: center;
+    font-size: xx-large;
+}
+
+h3 {
+    flex-grow:1;
+    flex-basis: 0;
+font-size: xx-large;
+    align-content: center;
+    width: 33%;
+}
+
+
+
+#name{
+    font-size: 8vw;
+    color: whitesmoke;
+    font-family: cursive;
+    font-style: oblique;
+    font-weight: bolder;
+
+
+
+}
+
+
+.MyNavigation{
+    display: block;
+    font-size: 2vw;
+    font-family: cursive;
+    font-weight: bolder;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#MyNav a:hover {
+    color: #b3d4fc;
+}
+#MyNav a{
+    color:whitesmoke;
+    text-decoration-color: #b3d4fc;
+    text-decoration: solid;
+    padding: 3px;
+    display: block;
+    font-weight: bolder;
+}
+
+#footer{
+    position: absolute;
+    display: block;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    body {
+        background-image: ;
+    }
+#Topnav{
+font-size: small;}
+}
